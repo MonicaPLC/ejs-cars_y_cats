@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+</head>
+<body>
+  
+</form>
+
+<form action="maneja_formulario.php" method="post">
+  <fieldset>
+<legend>Datos de conexión</legend>
+  Nombre de usuario<br/>
+  <input type="text" name="nombre" value="" maxlength="10" />
+  <br/>
+  Contraseña<br/>
+  <input type="password" name="password" value="" maxlength="10" />
+  <br/>
+  Repite la contraseña<br/>
+  <input type="password" name="password2" value="" maxlength="10" />
+  </fieldset>
+  </form>
+
+  <h2>Selecciona tu género</h2>
+  <label for="masculino">Masculino</label>
+  <input type="radio" id="masculino" name="genero" value="masculino" />
+  <label for="femenino">Femenino</label>
+  <input type="radio" id="masculino" name="genero" value="masculino" />
+  <label for="femenino">Otro</label>
+  <input type="radio" id="masculino" name="genero" value="masculino" />
+
+
+  <h2>Selecciona una marca</h2>
+  <label form="nombre">Buscador:</label>
+  <input list="browsers" />
+  <datalist id="browsers">
+    <option value="Chevrolet"></option>
+    <option value="Nissan"></option>
+    <option value="Mercedes Benz"></option>
+    <option value="Susuzi"></option>
+    <option value="BWM"></option>
+  </datalist>
+
+
+
+  <h2>Envíanos un mensaje</h2>
+  <textarea name="description" maxlength="50"></textarea>
+
+
+
+</body>
+</html>
